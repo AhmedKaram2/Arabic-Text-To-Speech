@@ -20,7 +20,7 @@ public class TextToSpeech extends javax.swing.JFrame {
         englishLetters = new StringBuilder("aaaywhnmlkkfgaztdssszrzdahgstbaaa").reverse().toString();
     }
     
-    // Here is button method do translitration on Arabic words and do Do method
+    // Here is button to do translitration on Arabic words and do Do method
         
         if (txtArea.getText().isEmpty() == false) {
             englistLettersArray.clear();
@@ -54,7 +54,7 @@ public class TextToSpeech extends javax.swing.JFrame {
         
     
 
-    // Here class typr roman letters on the filed and identify sound to read words
+    // Here  typr roman letters on the filed and identify sound to read words
     
 private void Do(String transWord) {
        
